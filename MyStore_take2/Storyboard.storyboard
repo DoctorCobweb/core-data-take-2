@@ -36,6 +36,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="RpN-9I-PdU" kind="modal" identifier="updateDevice" id="LBc-3p-akb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
@@ -135,4 +138,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="LBc-3p-akb"/>
+    </inferredMetricsTieBreakers>
 </document>

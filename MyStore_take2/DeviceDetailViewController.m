@@ -14,6 +14,8 @@
 
 @implementation DeviceDetailViewController
 
+@synthesize device;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +29,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.
+    if (device) {
+        [self.nameTextField setText:[device valueForKey:@"name"]];
+        [self.versionTextField setText:[device valueForKey:@"version"]];
+        [self.companyTextField setText:[device valueForKey:@"company"]];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,12 +59,21 @@
 
 - (IBAction)save:(id)sender {
     NSManagedObjectContext *context = [self managedObjectContext];
+
+    if (device) {
+        // Update existing device
+        [device setValue:self.nameTextField.text forKey:@"name"];
+        [device setValue:self.versionTextField.text forKey:@"version"];
+        [device setValue:self.companyTextField.text forKey:@"company"];
+        
+    } else {
+        // Create a new managed object
+        NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
+        [newDevice setValue:self.nameTextField.text forKey:@"name"];
+        [newDevice setValue:self.versionTextField.text forKey:@"version"];
+        [newDevice setValue:self.companyTextField.text forKey:@"company"];
+    }
     
-    // Create a new managed object
-    NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
-    [newDevice setValue:self.nameTextField.text forKey:@"name"];
-    [newDevice setValue:self.versionTextField.text forKey:@"version"];
-    [newDevice setValue:self.companyTextField.text forKey:@"company"];
     
     NSError *error = nil;
     // Save the object to persistent store
