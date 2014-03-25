@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F618F818E15025000B5890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618F718E15025000B5890 /* Foundation.framework */; };
+		65F618FA18E15025000B5890 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618F918E15025000B5890 /* CoreGraphics.framework */; };
+		65F618FC18E15025000B5890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618FB18E15025000B5890 /* UIKit.framework */; };
+		65F618FE18E15025000B5890 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618FD18E15025000B5890 /* CoreData.framework */; };
+		65F6190418E15025000B5890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F6190218E15025000B5890 /* InfoPlist.strings */; };
+		65F6190618E15025000B5890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6190518E15025000B5890 /* main.m */; };
+		65F6190A18E15025000B5890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6190918E15025000B5890 /* AppDelegate.m */; };
+		65F6190D18E15025000B5890 /* MyStore_take2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F6190B18E15025000B5890 /* MyStore_take2.xcdatamodeld */; };
+		65F6190F18E15025000B5890 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F6190E18E15025000B5890 /* Images.xcassets */; };
+		65F6191618E15025000B5890 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F6191518E15025000B5890 /* XCTest.framework */; };
+		65F6191718E15025000B5890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618F718E15025000B5890 /* Foundation.framework */; };
+		65F6191818E15025000B5890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618FB18E15025000B5890 /* UIKit.framework */; };
+		65F6191918E15025000B5890 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618FD18E15025000B5890 /* CoreData.framework */; };
+		65F6192118E15025000B5890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F6191F18E15025000B5890 /* InfoPlist.strings */; };
+		65F6192318E15025000B5890 /* MyStore_take2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6192218E15025000B5890 /* MyStore_take2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65F6191A18E15025000B5890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F618EC18E15024000B5890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F618F318E15025000B5890;
+			remoteInfo = MyStore_take2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65F618F418E15025000B5890 /* MyStore_take2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStore_take2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F618F718E15025000B5890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65F618F918E15025000B5890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65F618FB18E15025000B5890 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65F618FD18E15025000B5890 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65F6190118E15025000B5890 /* MyStore_take2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStore_take2-Info.plist"; sourceTree = "<group>"; };
+		65F6190318E15025000B5890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65F6190518E15025000B5890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65F6190718E15025000B5890 /* MyStore_take2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStore_take2-Prefix.pch"; sourceTree = "<group>"; };
+		65F6190818E15025000B5890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65F6190918E15025000B5890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65F6190C18E15025000B5890 /* MyStore_take2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStore_take2.xcdatamodel; sourceTree = "<group>"; };
+		65F6190E18E15025000B5890 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65F6191418E15025000B5890 /* MyStore_take2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStore_take2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F6191518E15025000B5890 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65F6191E18E15025000B5890 /* MyStore_take2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStore_take2Tests-Info.plist"; sourceTree = "<group>"; };
+		65F6192018E15025000B5890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65F6192218E15025000B5890 /* MyStore_take2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStore_take2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F618F118E15025000B5890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F618FA18E15025000B5890 /* CoreGraphics.framework in Frameworks */,
+				65F618FE18E15025000B5890 /* CoreData.framework in Frameworks */,
+				65F618FC18E15025000B5890 /* UIKit.framework in Frameworks */,
+				65F618F818E15025000B5890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F6191118E15025000B5890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6191618E15025000B5890 /* XCTest.framework in Frameworks */,
+				65F6191918E15025000B5890 /* CoreData.framework in Frameworks */,
+				65F6191818E15025000B5890 /* UIKit.framework in Frameworks */,
+				65F6191718E15025000B5890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F618EB18E15024000B5890 = {
+			isa = PBXGroup;
+			children = (
+				65F618FF18E15025000B5890 /* MyStore_take2 */,
+				65F6191C18E15025000B5890 /* MyStore_take2Tests */,
+				65F618F618E15025000B5890 /* Frameworks */,
+				65F618F518E15025000B5890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F618F518E15025000B5890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F618F418E15025000B5890 /* MyStore_take2.app */,
+				65F6191418E15025000B5890 /* MyStore_take2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F618F618E15025000B5890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F618F718E15025000B5890 /* Foundation.framework */,
+				65F618F918E15025000B5890 /* CoreGraphics.framework */,
+				65F618FB18E15025000B5890 /* UIKit.framework */,
+				65F618FD18E15025000B5890 /* CoreData.framework */,
+				65F6191518E15025000B5890 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F618FF18E15025000B5890 /* MyStore_take2 */ = {
+			isa = PBXGroup;
+			children = (
+				65F6190818E15025000B5890 /* AppDelegate.h */,
+				65F6190918E15025000B5890 /* AppDelegate.m */,
+				65F6190E18E15025000B5890 /* Images.xcassets */,
+				65F6190B18E15025000B5890 /* MyStore_take2.xcdatamodeld */,
+				65F6190018E15025000B5890 /* Supporting Files */,
+			);
+			path = MyStore_take2;
+			sourceTree = "<group>";
+		};
+		65F6190018E15025000B5890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F6190118E15025000B5890 /* MyStore_take2-Info.plist */,
+				65F6190218E15025000B5890 /* InfoPlist.strings */,
+				65F6190518E15025000B5890 /* main.m */,
+				65F6190718E15025000B5890 /* MyStore_take2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65F6191C18E15025000B5890 /* MyStore_take2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65F6192218E15025000B5890 /* MyStore_take2Tests.m */,
+				65F6191D18E15025000B5890 /* Supporting Files */,
+			);
+			path = MyStore_take2Tests;
+			sourceTree = "<group>";
+		};
+		65F6191D18E15025000B5890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F6191E18E15025000B5890 /* MyStore_take2Tests-Info.plist */,
+				65F6191F18E15025000B5890 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F618F318E15025000B5890 /* MyStore_take2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F6192618E15025000B5890 /* Build configuration list for PBXNativeTarget "MyStore_take2" */;
+			buildPhases = (
+				65F618F018E15025000B5890 /* Sources */,
+				65F618F118E15025000B5890 /* Frameworks */,
+				65F618F218E15025000B5890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStore_take2;
+			productName = MyStore_take2;
+			productReference = 65F618F418E15025000B5890 /* MyStore_take2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F6191318E15025000B5890 /* MyStore_take2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F6192918E15025000B5890 /* Build configuration list for PBXNativeTarget "MyStore_take2Tests" */;
+			buildPhases = (
+				65F6191018E15025000B5890 /* Sources */,
+				65F6191118E15025000B5890 /* Frameworks */,
+				65F6191218E15025000B5890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F6191B18E15025000B5890 /* PBXTargetDependency */,
+			);
+			name = MyStore_take2Tests;
+			productName = MyStore_take2Tests;
+			productReference = 65F6191418E15025000B5890 /* MyStore_take2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F618EC18E15024000B5890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "andre trosky";
+				TargetAttributes = {
+					65F6191318E15025000B5890 = {
+						TestTargetID = 65F618F318E15025000B5890;
+					};
+				};
+			};
+			buildConfigurationList = 65F618EF18E15024000B5890 /* Build configuration list for PBXProject "MyStore_take2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65F618EB18E15024000B5890;
+			productRefGroup = 65F618F518E15025000B5890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F618F318E15025000B5890 /* MyStore_take2 */,
+				65F6191318E15025000B5890 /* MyStore_take2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F618F218E15025000B5890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6190418E15025000B5890 /* InfoPlist.strings in Resources */,
+				65F6190F18E15025000B5890 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F6191218E15025000B5890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6192118E15025000B5890 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F618F018E15025000B5890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6190A18E15025000B5890 /* AppDelegate.m in Sources */,
+				65F6190D18E15025000B5890 /* MyStore_take2.xcdatamodeld in Sources */,
+				65F6190618E15025000B5890 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F6191018E15025000B5890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6192318E15025000B5890 /* MyStore_take2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F6191B18E15025000B5890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F618F318E15025000B5890 /* MyStore_take2 */;
+			targetProxy = 65F6191A18E15025000B5890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65F6190218E15025000B5890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F6190318E15025000B5890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65F6191F18E15025000B5890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F6192018E15025000B5890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F6192418E15025000B5890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65F6192518E15025000B5890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F6192718E15025000B5890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStore_take2/MyStore_take2-Prefix.pch";
+				INFOPLIST_FILE = "MyStore_take2/MyStore_take2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65F6192818E15025000B5890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStore_take2/MyStore_take2-Prefix.pch";
+				INFOPLIST_FILE = "MyStore_take2/MyStore_take2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65F6192A18E15025000B5890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyStore_take2.app/MyStore_take2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStore_take2/MyStore_take2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyStore_take2Tests/MyStore_take2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		65F6192B18E15025000B5890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyStore_take2.app/MyStore_take2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStore_take2/MyStore_take2-Prefix.pch";
+				INFOPLIST_FILE = "MyStore_take2Tests/MyStore_take2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F618EF18E15024000B5890 /* Build configuration list for PBXProject "MyStore_take2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F6192418E15025000B5890 /* Debug */,
+				65F6192518E15025000B5890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F6192618E15025000B5890 /* Build configuration list for PBXNativeTarget "MyStore_take2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F6192718E15025000B5890 /* Debug */,
+				65F6192818E15025000B5890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65F6192918E15025000B5890 /* Build configuration list for PBXNativeTarget "MyStore_take2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F6192A18E15025000B5890 /* Debug */,
+				65F6192B18E15025000B5890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65F6190B18E15025000B5890 /* MyStore_take2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65F6190C18E15025000B5890 /* MyStore_take2.xcdatamodel */,
+			);
+			currentVersion = 65F6190C18E15025000B5890 /* MyStore_take2.xcdatamodel */;
+			path = MyStore_take2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65F618EC18E15024000B5890 /* Project object */;
+}
