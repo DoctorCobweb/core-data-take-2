@@ -22,6 +22,9 @@
 		65F6191918E15025000B5890 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F618FD18E15025000B5890 /* CoreData.framework */; };
 		65F6192118E15025000B5890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F6191F18E15025000B5890 /* InfoPlist.strings */; };
 		65F6192318E15025000B5890 /* MyStore_take2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6192218E15025000B5890 /* MyStore_take2Tests.m */; };
+		65F6192D18E150AF000B5890 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F6192C18E150AF000B5890 /* Storyboard.storyboard */; };
+		65F6193018E155B4000B5890 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6192F18E155B4000B5890 /* DeviceViewController.m */; };
+		65F6193318E155F6000B5890 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6193218E155F6000B5890 /* DeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		65F6191E18E15025000B5890 /* MyStore_take2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStore_take2Tests-Info.plist"; sourceTree = "<group>"; };
 		65F6192018E15025000B5890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65F6192218E15025000B5890 /* MyStore_take2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStore_take2Tests.m; sourceTree = "<group>"; };
+		65F6192C18E150AF000B5890 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		65F6192E18E155B4000B5890 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		65F6192F18E155B4000B5890 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		65F6193118E155F6000B5890 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		65F6193218E155F6000B5890 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +127,12 @@
 				65F6190918E15025000B5890 /* AppDelegate.m */,
 				65F6190E18E15025000B5890 /* Images.xcassets */,
 				65F6190B18E15025000B5890 /* MyStore_take2.xcdatamodeld */,
+				65F6192C18E150AF000B5890 /* Storyboard.storyboard */,
 				65F6190018E15025000B5890 /* Supporting Files */,
+				65F6192E18E155B4000B5890 /* DeviceViewController.h */,
+				65F6192F18E155B4000B5890 /* DeviceViewController.m */,
+				65F6193118E155F6000B5890 /* DeviceDetailViewController.h */,
+				65F6193218E155F6000B5890 /* DeviceDetailViewController.m */,
 			);
 			path = MyStore_take2;
 			sourceTree = "<group>";
@@ -230,6 +243,7 @@
 			files = (
 				65F6190418E15025000B5890 /* InfoPlist.strings in Resources */,
 				65F6190F18E15025000B5890 /* Images.xcassets in Resources */,
+				65F6192D18E150AF000B5890 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F6193018E155B4000B5890 /* DeviceViewController.m in Sources */,
 				65F6190A18E15025000B5890 /* AppDelegate.m in Sources */,
+				65F6193318E155F6000B5890 /* DeviceDetailViewController.m in Sources */,
 				65F6190D18E15025000B5890 /* MyStore_take2.xcdatamodeld in Sources */,
 				65F6190618E15025000B5890 /* main.m in Sources */,
 			);
